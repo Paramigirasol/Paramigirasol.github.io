@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.cont-anime{ 
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.anime{
+    width: 400px;
+    position: relative;
+    animation: corazon 1s ease infinite alternate;
+}
+.cont-anime h1{
+    font-size: 3em;
+    font-family: 'Bungee', cursive;
+    text-align: center;
+
+}
+
+@keyframes corazon{
+    from{ 
+        transform: scale(.15);
+    }
+    to{
+        transform: scale(1);
+    }
+}
